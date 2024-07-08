@@ -11,11 +11,21 @@ input, textarea, span, p, h2, h3, h4 {
    color: black;
 }
 
-.sheet {
+.charsheet div.sheet {
   background-color: darkcyan;
   padding: 20px;
   display: grid;
-  grid-template-areas: "char desc" "attr skill" "save skill" "equipment" "deploy" "notes" "inv money" "notes2";
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "char desc" 
+    "attr skill" 
+    "save skill"
+    "equipment equipment" 
+    "deploy deploy" 
+    "notes1 notes2" 
+    "inv money" 
+    "notes3 notes3";
 }
 
 div.char {
@@ -47,11 +57,11 @@ div.deployables {
 }
 
 div.equipmentnotes {
-    grid-area: notes;
+    grid-area: notes1;
 }
 
 div.abilities {
-    grid-area: notes;
+    grid-area: notes2;
 }
 
 div.inventory {
@@ -63,7 +73,7 @@ div.money {
 }
 
 div.notes {
-    grid-area: notes2;
+    grid-area: notes3;
 }
 
 .age {
