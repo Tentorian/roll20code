@@ -268,8 +268,8 @@ div.notes {
     border-radius: 20px;
     color: DarkGray;
     box-sizing: border-box;
-    width: 70em;
-    max-width: 70em;
+    width: 50em;
+    max-width: 50em;
     padding: 10px;
     resize: vertical;
     font-family: 'Kode Mono', Arial;
@@ -284,8 +284,8 @@ div.notes {
     border-radius: 20px;
     color: DarkGray;
     box-sizing: border-box;
-    width: 70em;
-    max-width: 70em;
+    width: 50em;
+    max-width: 50em;
     padding: 10px;
     resize: vertical;
     font-family: 'Kode Mono', Arial;
@@ -336,8 +336,8 @@ div.notes {
     border-radius: 20px;
     color: DarkGray;
     box-sizing: border-box;
-    width: 70em;
-    max-width: 70em;
+    width: 50em;
+    max-width: 50em;
     padding: 10px;
     resize: vertical;
     font-family: 'Kode Mono', Arial;
