@@ -18,58 +18,114 @@ input, textarea, span, p, h2, h3, h4 {
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "title title"
-    "char desc" 
-    "attr skill" 
+    "charhead deschead"
+    "char desc"
+    "attrhead skillhead"
+    "attr skill"
+    "savehead skill"
     "save skill"
-    "equipment equipment" 
+    "equiphead equiphead"
+    "equipment equipment"
+    "deployhead deployhead"
     "deploy deploy" 
+    "notes1head notes2head"
     "notes1 notes2" 
+    "invhead moneyhead"
     "inv money" 
+    "notes3head notes3head"
     "notes3 notes3";
+}
+
+div.title {
+    grid-area: title;
+}
+
+div.charhead {
+    grid-area: charhead;
 }
 
 div.char {
     grid-area: char;
 }
 
+div.deschead {
+    grid-area: deschead;
+}
+
 div.desc {
     grid-area: desc;
+}
+
+div.statshead {
+    grid-area: attrhead;
 }
 
 div.stats {
     grid-area: attr;
 }
 
+div.savehead {
+    grid-area: savehead;
+}
+
 div.savingthrows {
     grid-area: save;
+}
+
+div.skillscorehead {
+    grid-area: 
 }
 
 div.skillscores {
     grid-area: skill;
 }
 
+div.equiphead {
+    grid-area: equiphead;
+}
+
 div.equipment {
     grid-area: equipment;
+}
+
+div.deployhead {
+    grid-area: deployhead;
 }
 
 div.deployables {
     grid-area: deploy;
 }
 
+div.equipnoteshead {
+    grid-area: notes1head;
+}
+
 div.equipmentnotes {
     grid-area: notes1;
+}
+
+div.abilitieshead {
+    grid-area: notes2head;
 }
 
 div.abilities {
     grid-area: notes2;
 }
 
+div.invhead {
+    grid-area: invhead;
+}
+
 div.inventory {
     grid-area: inv;
 }
 
-div.money {
+div.money div.moneyhead {
     grid-area: money;
+}
+
+div.noteshead {
+    grid-area: notes3head;
 }
 
 div.notes {
