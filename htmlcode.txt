@@ -1,8 +1,10 @@
 <div class="sheet"> 
+    <div class="title">
     <h1>Titan: Ascension</h1>
-
-    <h2>Character Sheet</h2>
+    </div>
+    
     <div class="char">
+    <h2>Character Sheet</h2>
     <p>Character Name   <input type="text" name="attr_name" ></p>
     <p>Race <select class="race" name="attr_race">
         <option value="none" selected disabled hidden>Choose a race</option>
@@ -39,317 +41,338 @@
     </select></p>
     <p>Level <input class="level" name="attr_level" type="number"></p>
     </div>
-    <h3>Description</h3>
+    
     <div class="desc">
+    <h3>Description</h3>
     <textarea class="description" name="attr_description" placeholder"Enter your description here"></textarea>
 
     <p>Current Hit Points (HP)  <input class="mod" type="number" name="attr_currenthp" >   /   Max Hit Points (HP)  <input class="mod" type="number" name="attr_maxhp" ></p>
     <p>Current Armour Class (AC) <input class="mod" type="number" name="attr_currentac" >   /   Max Armour Class (AC) <input class="mod" type="number" name="attr_maxac" ></p>
     <p>Proficiency Modifier (PRO mod) <input class="mod" type="text" value="+0" name="attr_promod" >   Initiative <input class="mod" type="text" value="+0" name="attr_initiative" > </p>
     </div>
-    <h3>Attributes</h3>
+    
+    
     <div class="stats">
-        <h4>Stat Name</h4>
-        <h4>Score</h4>
-        <h4>Mod</h4>
+        <h3>Attributes</h3>
+        <div class="stats">
+            <h4>Stat Name</h4>
+            <h4>Score</h4>
+            <h4>Mod</h4>
         
-        <span>Strength (STR)</span>
-        <input type="number" name="attr_str">
-        <input class="mod" type="text" name="attr_str_mod">
+            <span>Strength (STR)</span>
+            <input type="number" name="attr_str">
+            <input class="mod" type="text" name="attr_str_mod">
         
-        <span>Vitality (VIT)</span>
-        <input type="number" name="attr_vit">
-        <input class="mod" type="text" name="attr_vit_mod">
+            <span>Vitality (VIT)</span>
+            <input type="number" name="attr_vit">
+            <input class="mod" type="text" name="attr_vit_mod">
         
-        <span>Dexterity (DEX)</span>
-        <input type="number" name="attr_dex">
-        <input class="mod" type="text" name="attr_dex_mod">
+            <span>Dexterity (DEX)</span>
+            <input type="number" name="attr_dex">
+            <input class="mod" type="text" name="attr_dex_mod">
         
-        <span>Intelligence (INT)</span>
-        <input type="number" name="attr_int">
-        <input class="mod" type="text" name="attr_int_mod">
+            <span>Intelligence (INT)</span>
+            <input type="number" name="attr_int">
+            <input class="mod" type="text" name="attr_int_mod">
         
-        <span>Wisdom (WIS)</span>
-        <input type="number" name="attr_wis">
-        <input class="mod" type="text" name="attr_wis_mod">
+            <span>Wisdom (WIS)</span>
+            <input type="number" name="attr_wis">
+            <input class="mod" type="text" name="attr_wis_mod">
         
-        <span>Charisma (CHA)</span>
-        <input type="number" name="attr_cha">
-        <input class="mod" type="text" name="attr_cha_mod">
+            <span>Charisma (CHA)</span>
+            <input type="number" name="attr_cha">
+            <input class="mod" type="text" name="attr_cha_mod">
+        </div>
     </div>
 
-    <h3>Saving Throws</h3>
     <div class="savingthrows">
-        <h4>Stat Name</h4>
-        <h4>Saving Throw</h4>
-        <h4>Proficient?</h4>
+        <h3>Saving Throws</h3>
+        <div class="savingthrows">
+            <h4>Stat Name</h4>
+            <h4>Saving Throw</h4>
+            <h4>Proficient?</h4>
     
-        <span>Strength (STR)</span>
-        <input class="mod" type="text" name="attr_str_throw">
-        <input type="checkbox">
+            <span>Strength (STR)</span>
+            <input class="mod" type="text" name="attr_str_throw">
+            <input type="checkbox">
     
-        <span>Vitality (VIT)</span>
-        <input class="mod" type="text" name="attr_vit_throw">
-        <input type="checkbox">
+            <span>Vitality (VIT)</span>
+            <input class="mod" type="text" name="attr_vit_throw">
+            <input type="checkbox">
     
-        <span>Dexterity (DEX)</span>
-        <input class="mod" type="text" name="attr_dex_throw">
-        <input type="checkbox">
+            <span>Dexterity (DEX)</span>
+            <input class="mod" type="text" name="attr_dex_throw">
+            <input type="checkbox">
         
-        <span>Intelligence (INT)</span>
-        <input class="mod" type="text" name="attr_int_throw">
-        <input type="checkbox">
+            <span>Intelligence (INT)</span>
+            <input class="mod" type="text" name="attr_int_throw">
+            <input type="checkbox">
         
-        <span>Wisdom (WIS)</span>
-        <input class="mod" type="text" name="attr_wis_throw">
-        <input type="checkbox">
+            <span>Wisdom (WIS)</span>
+            <input class="mod" type="text" name="attr_wis_throw">
+            <input type="checkbox">
         
-        <span>Charisma (CHA)</span>
-        <input class="mod" type="text" name="attr_cha_throw">
-        <input type="checkbox">
+            <span>Charisma (CHA)</span>
+            <input class="mod" type="text" name="attr_cha_throw">
+            <input type="checkbox">
+        </div>
     </div>
 
-    <h3>Skills Scores</h3>
     <div class="skillscores">
-        <h4>Skill Name</h4>
-        <h4>Modifier</h4>
-        <h4>Proficient?</h4>
+        <h3>Skills Scores</h3>
+        <div class="skillscores">
+            <h4>Skill Name</h4>
+            <h4>Modifier</h4>
+            <h4>Proficient?</h4>
     
-        <span>Athletics (STR)</span>
-        <input class="mod" type="text" name="attr_ath">
-        <input type="checkbox">
+            <span>Athletics (STR)</span>
+            <input class="mod" type="text" name="attr_ath">
+            <input type="checkbox">
     
-        <span>Acrobatics (DEX)</span>
-        <input class="mod" type="text" name="attr_acr">
-        <input type="checkbox">
+            <span>Acrobatics (DEX)</span>
+            <input class="mod" type="text" name="attr_acr">
+            <input type="checkbox">
     
-        <span>Sleight of Hand (DEX)</span>
-        <input class="mod" type="text" name="attr_soh">
-        <input type="checkbox">
+            <span>Sleight of Hand (DEX)</span>
+            <input class="mod" type="text" name="attr_soh">
+            <input type="checkbox">
     
-        <span>Stealth (DEX)</span>
-        <input class="mod" type="text" name="attr_ste">
-        <input type="checkbox">
+            <span>Stealth (DEX)</span>
+            <input class="mod" type="text" name="attr_ste">
+            <input type="checkbox">
     
-        <span>Science (INT)</span>
-        <input class="mod" type="text" name="attr_sci">
-        <input type="checkbox">
+            <span>Science (INT)</span>
+            <input class="mod" type="text" name="attr_sci">
+            <input type="checkbox">
     
-        <span>History (INT)</span>
-        <input class="mod" type="text" name="attr_his">
-        <input type="checkbox">
+            <span>History (INT)</span>
+            <input class="mod" type="text" name="attr_his">
+            <input type="checkbox">
     
-        <span>Investigation (INT)</span>
-        <input class="mod" type="text" name="attr_inv">
-        <input type="checkbox">
+            <span>Investigation (INT)</span>
+            <input class="mod" type="text" name="attr_inv">
+            <input type="checkbox">
+        
     
-        <span>Nature (INT)</span>
-        <input class="mod" type="text" name="attr_nat">
-        <input type="checkbox">
+            <span>Nature (INT)</span>
+            <input class="mod" type="text" name="attr_nat">
+            <input type="checkbox">
     
-        <span>Religion (INT)</span>
-        <input class="mod" type="text" name="attr_rel">
-        <input type="checkbox">
+            <span>Religion (INT)</span>
+            <input class="mod" type="text" name="attr_rel">
+            <input type="checkbox">
     
-        <span>Animal Handling (WIS)</span>
-        <input class="mod" type="text" name="attr_anhand">
-        <input type="checkbox">
+            <span>Animal Handling (WIS)</span>
+            <input class="mod" type="text" name="attr_anhand">
+            <input type="checkbox">
     
-        <span>Insight (WIS)</span>
-        <input class="mod" type="text" name="attr_ins">
-        <input type="checkbox">
+            <span>Insight (WIS)</span>
+            <input class="mod" type="text" name="attr_ins">
+            <input type="checkbox">
     
-        <span>Medicine (WIS)</span>
-        <input class="mod" type="text" name="attr_med">
-        <input type="checkbox">
+            <span>Medicine (WIS)</span>
+            <input class="mod" type="text" name="attr_med">
+            <input type="checkbox">
     
-        <span>Perception (WIS)</span>
-        <input class="mod" type="text" name="attr_per">
-        <input type="checkbox">
+            <span>Perception (WIS)</span>
+            <input class="mod" type="text" name="attr_per">
+            <input type="checkbox">
     
-        <span>Survival (WIS)</span>
-        <input class="mod" type="text" name="attr_sur">
-        <input type="checkbox">
+            <span>Survival (WIS)</span>
+            <input class="mod" type="text" name="attr_sur">
+            <input type="checkbox">
     
-        <span>Deception (CHA)</span>
-        <input class="mod" type="text" name="attr_dec">
-        <input type="checkbox">
+            <span>Deception (CHA)</span>
+            <input class="mod" type="text" name="attr_dec">
+            <input type="checkbox">
     
-        <span>Intimidation (CHA)</span>
-        <input class="mod" type="text" name="attr_intimidation">
-        <input type="checkbox">
+            <span>Intimidation (CHA)</span>
+            <input class="mod" type="text" name="attr_intimidation">
+            <input type="checkbox">
     
-        <span>Performance (WIS)</span>
-        <input class="mod" type="text" name="attr_perf">
-        <input type="checkbox">
+            <span>Performance (WIS)</span>
+            <input class="mod" type="text" name="attr_perf">
+            <input type="checkbox">
     
-        <span>Persuasion (WIS)</span>
-        <input class="mod" type="text" name="attr_pers">
-        <input type="checkbox">
-    
+            <span>Persuasion (WIS)</span>
+            <input class="mod" type="text" name="attr_pers">
+            <input type="checkbox">
+        </div>
     </div>
 
-    <h3>Equipment</h3>
     <div class="equipment">
-        <h4>Item</h4>
-        <h4>To Hit</h4>
-        <h4>Damage</h4>
-        <h4>Range</h4>
-        <h4>Current Ammo</h4>
-        <h4>Max Ammo</h4>
-        <h4>Special Effects</h4>
+        <h3>Equipment</h3>
+        <div class="equipment">
+            <h4>Item</h4>
+            <h4>To Hit</h4>
+            <h4>Damage</h4>
+            <h4>Range</h4>
+            <h4>Current Ammo</h4>
+            <h4>Max Ammo</h4>
+            <h4>Special Effects</h4>
     
-        <input type="text" placeholder="Item Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
+            <input type="text" placeholder="Item Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
     
-        <input type="text" placeholder="Item Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
+            <input type="text" placeholder="Item Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
     
-        <input type="text" placeholder="Item Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
+            <input type="text" placeholder="Item Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
     
-        <input type="text" placeholder="Item Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
+            <input type="text" placeholder="Item Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
         
-        <input type="text" placeholder="Item Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
+            <input type="text" placeholder="Item Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
         
-        <input type="text" placeholder="Item Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
-    
+            <input type="text" placeholder="Item Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
+        </div>
     </div>
     
-    <h3>Deployables</h3>
     <div class="deployables">
-        <h4>Name</h4>
-        <h4>To Hit</h4>
-        <h4>Damage</h4>
-        <h4>Range</h4>
-        <h4>Current HP</h4>
-        <h4>Max HP</h4>
-        <h4>Current Ammo</h4>
-        <h4>Max Ammo</h4>
-        <h4>Special Effects</h4>
+        <h3>Deployables</h3>
+            <div class="deployables">
+            <h4>Name</h4>
+            <h4>To Hit</h4>
+            <h4>Damage</h4>
+            <h4>Range</h4>
+            <h4>Current HP</h4>
+            <h4>Max HP</h4>
+            <h4>Current Ammo</h4>
+            <h4>Max Ammo</h4>
+            <h4>Special Effects</h4>
         
-        <input type="text" placeholder="Deployable Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
+            <input type="text" placeholder="Deployable Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
         
-        <input type="text" placeholder="Deployable Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
+            <input type="text" placeholder="Deployable Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
         
-        <input type="text" placeholder="Deployable Name">
-        <input class="mod" type="text" placeholder="e.g +4" value="+0">
-        <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
-        <input type="text" class="smallertext" placeholder="e.g 30ft">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="number" value="0">
-        <input type="text" placeholder="e.g Chance to stun targets">
-        
+            <input type="text" placeholder="Deployable Name">
+            <input class="mod" type="text" placeholder="e.g +4" value="+0">
+            <input type="text" class="smallertext" placeholder="e.g 1d8 +4">
+            <input type="text" class="smallertext" placeholder="e.g 30ft">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="text" placeholder="e.g Chance to stun targets">
+        </div>
     </div>
     
-    <h3>Equipment Notes</h3>
-    <textarea class="equipmentnotes" name="attr_equipmentnotes" placeholder="Enter any equipment notes here"></textarea>
+    <div class="equipmentnotes">
+        <h3>Equipment Notes</h3>
+        <textarea class="equipmentnotes" name="attr_equipmentnotes" placeholder="Enter any equipment notes here"></textarea>
+    </div>
     
-    <h3>Abilities</h3>
-    <textarea class="abilities" name="attr_abilities" placeholder="Enter any abilities and notes here"></textarea>
+    <div class="abilities">
+        <h3>Abilities</h3>
+        <textarea class="abilities" name="attr_abilities" placeholder="Enter any abilities and notes here"></textarea>
+    </div>
 
-    <h3>Inventory</h3>
     <div class="inventory">
-        <input type="text">
-        <input type="text">
-        <input type="text">
+        <h3>Inventory</h3>
+        <div class="inventory">
+            <input type="text">
+            <input type="text">
+            <input type="text">
     
-        <input type="text">
-        <input type="text">
-        <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
     
-        <input type="text">
-        <input type="text">
-        <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
     
-        <input type="text">
-        <input type="text">
-        <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
     
-        <input type="text">
-        <input type="text">
-        <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
     
-        <input type="text">
-        <input type="text">
-        <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
     
-        <input type="text">
-        <input type="text">
-        <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
     
-        <input type="text">
-        <input type="text">
-        <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </div>
     </div>
 
-    <h3>Money</h3>
     <div class="money">
-        <p>Credits (C)</p>
-        <input type="number" value="0">
+        <h3>Money</h3>
+        <div class="money">
+            <p>Credits (C)</p>
+            <input type="number" value="0">
     
-        <p>kC</p>
-        <input type="number" value="0">
+            <p>kC</p>
+            <input type="number" value="0">
     
-        <p>MC</p>
-        <input type="number" value="0">
+            <p>MC</p>
+            <input type="number" value="0">
 
-        <p>GC</p>
-        <input type="number" value="0">
+            <p>GC</p>
+            <input type="number" value="0">
+        </div>
     </div>
     
-    <h2>Notes etc</h2>
-    <textarea class="notes" name="attr_notes" placeholder="Enter any notes here"></textarea>
+    <div class="notes">
+        <h2>Notes etc</h2>
+        <textarea class="notes" name="attr_notes" placeholder="Enter any notes here"></textarea>
+    </div>
 
 </div>
