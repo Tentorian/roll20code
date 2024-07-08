@@ -3,8 +3,9 @@
     <h1>Titan: Ascension</h1>
     </div>
     
+    <div class="charhead"><h2>Character Sheet</h2></div>
+    
     <div class="char">
-    <h2>Character Sheet</h2>
     <p>Character Name   <input type="text" name="attr_name" ></p>
     <p>Race <select class="race" name="attr_race">
         <option value="none" selected disabled hidden>Choose a race</option>
@@ -42,8 +43,9 @@
     <p>Level <input class="level" name="attr_level" type="number"></p>
     </div>
     
+    <div class="deschead"><h3>Description</h3></div>
+    
     <div class="desc">
-    <h3>Description</h3>
     <textarea class="description" name="attr_description" placeholder"Enter your description here"></textarea>
 
     <p>Current Hit Points (HP)  <input class="mod" type="number" name="attr_currenthp" >   /   Max Hit Points (HP)  <input class="mod" type="number" name="attr_maxhp" ></p>
@@ -51,9 +53,9 @@
     <p>Proficiency Modifier (PRO mod) <input class="mod" type="text" value="+0" name="attr_promod" >   Initiative <input class="mod" type="text" value="+0" name="attr_initiative" > </p>
     </div>
     
+    <div class="statshead"><h3>Attributes</h3></div>
     
     <div class="stats">
-        <h3>Attributes</h3>
         <div class="stats">
             <h4>Stat Name</h4>
             <h4>Score</h4>
@@ -85,8 +87,9 @@
         </div>
     </div>
 
+    <div class="savehead"><h3>Saving Throws</h3></div>
+
     <div class="savingthrows">
-        <h3>Saving Throws</h3>
         <div class="savingthrows">
             <h4>Stat Name</h4>
             <h4>Saving Throw</h4>
@@ -118,8 +121,9 @@
         </div>
     </div>
 
+    <div class="skillscorehead"><h3>Skills Scores</h3></div>
+
     <div class="skillscores">
-        <h3>Skills Scores</h3>
         <div class="skillscores">
             <h4>Skill Name</h4>
             <h4>Modifier</h4>
@@ -200,8 +204,9 @@
         </div>
     </div>
 
+    <div class="equiphead"><h3>Equipment</h3></div>
+
     <div class="equipment">
-        <h3>Equipment</h3>
         <div class="equipment">
             <h4>Item</h4>
             <h4>To Hit</h4>
@@ -261,9 +266,10 @@
         </div>
     </div>
     
+    <div class="deployhead"><h3>Deployables</h3></div>
+    
     <div class="deployables">
-        <h3>Deployables</h3>
-            <div class="deployables">
+        <div class="deployables">
             <h4>Name</h4>
             <h4>To Hit</h4>
             <h4>Damage</h4>
@@ -306,18 +312,21 @@
         </div>
     </div>
     
+    <div class="equipnoteshead"><h3>Equipment Notes</h3></div>
+    
     <div class="equipmentnotes">
-        <h3>Equipment Notes</h3>
         <textarea class="equipmentnotes" name="attr_equipmentnotes" placeholder="Enter any equipment notes here"></textarea>
     </div>
     
+    <div class="abilitieshead"><h3>Abilities</h3></div>
+    
     <div class="abilities">
-        <h3>Abilities</h3>
         <textarea class="abilities" name="attr_abilities" placeholder="Enter any abilities and notes here"></textarea>
     </div>
 
+    <div class="invhead"><h3>Inventory</h3></div>
+    
     <div class="inventory">
-        <h3>Inventory</h3>
         <div class="inventory">
             <input type="text">
             <input type="text">
@@ -353,8 +362,9 @@
         </div>
     </div>
 
+    <div class="moneyhead"><h3>Money</h3></div>
+
     <div class="money">
-        <h3>Money</h3>
         <div class="money">
             <p>Credits (C)</p>
             <input type="number" value="0">
@@ -370,8 +380,9 @@
         </div>
     </div>
     
+    <div class="noteshead"><h2>Notes etc</h2></div>
+    
     <div class="notes">
-        <h2>Notes etc</h2>
         <textarea class="notes" name="attr_notes" placeholder="Enter any notes here"></textarea>
     </div>
 
