@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+h1 {
+    font-family: Orbitron, Arial;
+    color: black;
+}
+
+input, textarea, span, p, h2, h3, h4 {
+   font-family: 'Kode Mono', Arial;
+   color: black;
+}
+
+.sheet {
+  background-color: darkcyan
+}
+
+.sheet {
+    padding: 20px;
+}
+
+.age {
+    width: 10%;
+    min-width: 10em;
+}
+
+.mod {
+    width: 4em;
+}
+
+.smallertext {
+    width: 20%;
+    min-width: 12em;
+}
+
+.height {
+    width: 10%;
+    min-width: 10em;
+}
+
+.race {
+    width: 15%;
+    min-width: 10em;
+}
+
+.class {
+    width: 15%;
+    min-width: 10em;
+}
+
+.faction {
+    width: 25%;
+    min-width: 15em;
+}
+
+.description {
+    width: 60%;
+    max-width: 500px;
+    font-family: 'Kode Mono', Arial;
+    color: black;
+}
+
+.notes {
+    width: 60%;
+    max-width: 500px;
+    font-family: 'Kode Mono', Arial;
+    color: black;
+}
+
+.stats {
+   display: grid;
+   grid-template-columns: 15em 5em 5em;
+   column-gap: 1em;
+   resize: vertical;
+   background-color: Azure;
+   border-bottom: 2px solid DarkGray;
+   border-right: 2px solid DarkGray;
+   border-left: 2px solid DarkGray;
+   border-radius: 20px;
+   color: DarkGray;
+   box-sizing: border-box;
+   width: 30em;
+   padding: 10px;
+}
+
+.savingthrows {
+    display: grid;
+    grid-template-columns: 12em 5em 5em;
+    column-gap: 1em;
+    resize: vertical;
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 30em;
+    padding: 10px;
+}
+
+.skillscores {
+    display: grid;
+    grid-template-columns: 15em 7em 5em;
+    column-gap: 0.25em;
+    resize: vertical;
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 32em;
+    padding: 10px;
+}
+
+.equipment {
+    display: grid;
+    grid-template-columns: 15em 5em 13em 13em 5em 5em 18em;
+    column-gap: 0.25em;
+    resize: vertical;
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 75em;
+    padding: 10px;
+}
+
+.deployables {
+    display: grid;
+    grid-template-columns: 15em 5em 13em 13em 5em 5em 5em 5em 18em;
+    column-gap: 0.25em;
+    resize: vertical;
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 88em;
+    padding: 10px;
+}
+
+.equipmentnotes {
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 70em;
+    max-width: 70em;
+    padding: 10px;
+    resize: vertical;
+    font-family: 'Kode Mono', Arial;
+    color: black;
+}
+
+.abilities {
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 70em;
+    max-width: 70em;
+    padding: 10px;
+    resize: vertical;
+    font-family: 'Kode Mono', Arial;
+    color: black;
+}
+
+.inventory {
+    display: grid;
+    grid-template-columns: 17em 17em 17em;
+    column-gap: 0em;
+    resize: vertical;
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 52em;
+    padding: 10px;
+    font-family: 'Kode Mono', Arial;
+    color: black;
+}
+
+.money {
+    display: grid;
+    grid-template-columns: 7em 5em;
+    column-gap: 1em;
+    resize: vertical;
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 14em;
+    padding: 10px;
+    font-family: 'Kode Mono', Arial;
+    color: black;
+}
+
+.notes {
+    background-color: Azure;
+    border-bottom: 2px solid DarkGray;
+    border-right: 2px solid DarkGray;
+    border-left: 2px solid DarkGray;
+    border-radius: 20px;
+    color: DarkGray;
+    box-sizing: border-box;
+    width: 70em;
+    max-width: 70em;
+    padding: 10px;
+    resize: vertical;
+    font-family: 'Kode Mono', Arial;
+    color: black;
+}
